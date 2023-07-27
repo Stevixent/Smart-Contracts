@@ -17,9 +17,9 @@ interface ERC20 {
 // this is the basics of creating an ERC20 token
 //change the name Henri and the symbol to whatever you would like
 
-contract Loeker is ERC20 {
-    string public constant symbol = "HEN";
-    string public constant name = "Henri";
+contract Smart is ERC20 {
+    string public constant symbol = "SMT";
+    string public constant name = "Smart Coin";
     uint8 public constant decimals = 18;
  
     //1,000,000+18 zeros
